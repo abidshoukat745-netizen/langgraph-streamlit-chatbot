@@ -1,0 +1,32 @@
+# Virtual environments
+myenv/
+.venv310/
+.venv/
+venv/
+
+# Environment variables / secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/secrets.toml
+
+# LangGraph / FAISS local data
+*.db
+*.sqlite
+faiss_index/
